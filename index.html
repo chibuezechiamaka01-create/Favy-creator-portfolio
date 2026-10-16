@@ -216,6 +216,22 @@ button:hover {
     text-decoration: none;
     margin-top: 10px;
       }
+      .explore-button {
+    display: inline-block;
+    background-color: purple;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.explore-button:hover {
+    background-color: blue;
+    transform: scale(1.05);
+}
     </style>
   
 </head>
@@ -244,9 +260,7 @@ button:hover {
         Welcome to my little corner of the internet.
         I'm learning to create amazing things with technology.
     </p>
-  <button onclick="alert('Welcome to Favour website!')">
-        Explore My Website
-    </button>
+  <a href="#about" class="explore-button">Explore My Website</a>
 </div>
     <section id="services">
     <h2>What I Do</h2>
